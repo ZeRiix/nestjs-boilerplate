@@ -1,0 +1,7 @@
+include:
+  # installer node global
+  - path:
+    - ./.docker/node-installer.compose.yml
+  # backend
+  - path:
+    - ./backend/compose.yml

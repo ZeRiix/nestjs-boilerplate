@@ -1,0 +1,8 @@
+services:
+  backend:
+    extends:
+      file: ${TEMPLATE_COMPOSE_NODE_DEV}
+      service: template-node
+    command: npm -w backend run dev
+    ports:
+      - 1506:1506
